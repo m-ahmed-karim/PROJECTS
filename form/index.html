@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+</head>
+
+<body>
+    <center>
+
+        <div class="main_div">
+            <br />
+            <br />
+            <h1>Responsive Contact us Form</h1>
+            <br>
+            <div class=" form">
+
+                <form action="" class="input_1">
+                    <input type="text" placeholder="First-Name" id="Firstname" />
+                    <input type="text" placeholder="Last-Name" id="lastname">
+                </form>
+
+
+                <form class="input_1">
+                    <input type="text" placeholder="Email-Address" id="email" />
+                    <input type="text" placeholder="Website-Name" id="Website" />
+                </form>
+
+
+                <input type="message" placeholder="Write-Your-message" id="messsage" class="input_2" />
+
+
+                <form>
+                </form>
+                <button class="Button" onclick="cellme()">SUBMIT</button>
+
+            </div>
+        </div>
+
+        <br>
+        <table id="table">
+            <tr>
+                <td>First Name </td>
+                <td>Last Name </td>
+                <td>Email Address</td>
+                <td>Website Name</td>
+
+                <td>Write Your Message</td>
+            </tr>
+            <tr>
+                <td id="data"></td>
+                <td id="data1"></td>
+                <td id="data2"></td>
+                <td id="data3"></td>
+                <td id="data4"></td>
+            </tr>
+        </table>
+    </center>
+
+    <script src="app.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+
+</html>
