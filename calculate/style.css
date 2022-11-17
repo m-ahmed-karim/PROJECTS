@@ -1,0 +1,52 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    /* background-image: url(./background.jpg); */
+}
+body{
+    background-color: black;
+}
+input{
+    height: 25px;
+    /* background-color: rgb(247, 247, 247); */
+    font-style: italic;
+    border-radius: 15px;
+}
+.main_div{
+    text-align: center;
+    margin-top: 60px;
+    /* background-color: rgb(255, 255, 255); */
+}
+.table{
+    margin: auto;
+}
+.button1{
+    width: 60px;
+    height: 45px;
+    font-weight: bold;
+    font-style: italic;
+    background-color: rgb(12, 12, 12) ;
+    color: yellow ;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.display{
+    width: 255px;
+    height: 30px;
+    text-align: right;
+    margin-bottom: 3px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.button2{
+    width: 129px;
+    height: 45px;
+    font-weight: bold;
+    font-style: italic;
+    background-color: rgb(12, 12, 12) ;
+    color: yellow;
+    cursor: pointer;
+}
+span{
+    color: aqua;
+}

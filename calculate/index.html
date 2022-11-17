@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main_div">
+        <h1>Calculatar</h1>
+
+        <form name="calculatar">
+            <input type="text" placeholder="0" class="display" name="dispaly" /><br />
+            <input type="button" class="button1" value="x" onclick="calculatar.dispaly.value+='*'">
+            <input type="button" class="button1" value="-" onclick="calculatar.dispaly.value+='-'">
+            <input type="button" class="button1" value="/" onclick="calculatar.dispaly.value+='/'">
+            <input type="button"  class="button1" value="c" onclick="calculatar.dispaly.value ='' ">
+            <br />
+            <input type="button" class="button1" value="7" onclick="calculatar.dispaly.value+='7'">
+            <input type="button" class="button1" value="8" onclick="calculatar.dispaly.value+='8'">
+            <input type="button" class="button1" value="9" onclick="calculatar.dispaly.value+='9'">
+            <input type="button" class="button1" value="+" onclick="calculatar.dispaly.value+='+'">
+            <br />
+            <input type="button" class="button1" value="6" onclick="calculatar.dispaly.value+='6'">
+            <input type="button" class="button1" value="5" onclick="calculatar.dispaly.value+='5'">
+            <input type="button" class="button1" value="4" onclick="calculatar.dispaly.value+='4'">
+            <input type="button" class="button1" value="%" onclick="calculatar.dispaly.value+='%'">
+            <br />
+            <input type="button" class="button1" value="3" onclick="calculatar.dispaly.value+='3'">
+            <input type="button" class="button1" value="2" onclick="calculatar.dispaly.value+='2'">
+            <input type="button" class="button1" value="1" onclick="calculatar.dispaly.value+='1'">
+            <input type="button" class="button1" value="." onclick="calculatar.dispaly.value+='.'">
+            <br />
+
+            <input type="button" class="button1" value="00" onclick="calculatar.dispaly.value+='00'">
+            <input type="button" class="button1" value="0" onclick="calculatar.dispaly.value+='0'">
+            <input type="button"  class="button2" value="=" onclick="calculatar.dispaly.value= eval(calculatar.dispaly.value)">
+
+
+        </form>
+        <span id="see" ></span>
+
+        <!-- <table name="t">
+            <input type="text" name="screen" id="screen"/>
+
+            <input type="button" value="7" onclick="t.screen.value+='7'">
+             <tr>
+                <td><button>(</button></td>
+                <td><button>)</button></td>
+                <td><button>c</button></td>
+                <td><button>%</button></td>
+            </tr> 
+            <tr>
+                <td><button value="7" onclick="table.screen.value+='7'">7</button></td>
+                <td><button>8</button></td>
+                <td><button>9</button></td>
+                <td><button>c</button ></td>
+            </tr>
+            <tr>
+                <td><button>6</button></td>
+                <td><button>5</button></td>
+                <td><button>4</button></td>
+                <td><button>-</button></td>
+            </tr>
+            <tr>
+                <td><button >3</button></td>
+                <td><button>2</button></td>
+                <td><button>1</button></td>
+                <td><button>+</button></td>
+            </tr>
+            <tr>
+                <td><button>0</button></td>
+                <td><button>.</button></td>
+                <td><button>/</button></td>
+                <td><button>x</button></td>
+            </tr>
+        </table> -->
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>
