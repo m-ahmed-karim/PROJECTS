@@ -1,0 +1,113 @@
+body {
+    background: rgb(255, 0, 241);
+    background: linear-gradient(90deg, rgba(255, 0, 241, 1) 0%, rgba(234, 87, 247, 1) 47%, rgba(0, 212, 255, 1) 100%);
+    transition: background-color .5s;
+}
+
+.main_music {
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    height: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28%;
+    background-color: #f1f3f4;
+    border-radius: 20px;
+}
+
+.data_1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.img {
+    margin: 25px;
+    height: 250px;
+    width: 250px;
+    /* background-image: URL("https://source.unsplash.com/Qrspubmx6kE/640x360"); */
+    background-size: contain;
+    background-position: center;
+    border-radius: 15%;
+    border-radius: 140px;
+}
+
+.heding {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.name {
+    font-size: 3rem;
+    margin-bottom: 7px;
+}
+
+.list_name {
+    font-size: 1.5rem;
+}
+
+.icons {
+    display: flex;
+}
+
+element.style {
+    width: 170px;
+ 
+}
+.bi-skip-start-fill{
+    margin-top: 17px;
+}
+.bi-skip-end-fill{
+    margin-top: 17px;
+    margin-left: 10px;
+}
+.bi:hover{
+    cursor: pointer;
+    border:2px solid #c1c3c3;
+    border-radius: 40px;
+    background-color: #c1c3c3;
+}
+input{
+    width: 13%;
+    border: none;
+    border-bottom: 1px solid black;
+
+}
+/* audio::-webkit-media-controls-play-button{
+    width: 50px;
+    height: 30px;
+} */
+@media screen and (max-width:1100px) {
+    .main {
+        height: 95%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+        background-color: #f1f3f4;
+        border-radius: 20px;
+    }
+
+}
+
+@media screen and (max-width:1050px) {
+    .main {
+        height: 95%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+        background-color: #f1f3f4;
+        border-radius: 20px;
+    }
+
+}
